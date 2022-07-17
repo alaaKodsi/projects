@@ -1,2 +1,4 @@
-# traffic_sign_classfication
-The project is an easy-to-use mobile application dedicated to recognizing traffic signals by pre-trained neural network technology. Through the application, you can take a photo directly or through a photo previously saved in the archives. After the image is taken, it is processed in main steps and in a sequence, and through the API, it is communicated with the neural network, and we take a result from it if the image that was taken is a traffic signal or something else, and a signal name is sent if it is recognized as a traffic signal. The application is easy to use and has a small space that does not exceed 6MB.
+The project is an easy-to-use mobile application dedicated to detecting signatures that have been forged by pre-trained neural network technology.
+Through the application, a picture can be taken directly or through an image that has been previously saved by specifying a percentage to determine the validity of the signature. All percentages that are greater than 85% have been categorized on It is a valid signature free of forgery and percentages less than “ 85 % ” were considered forged.
+In addition, the percentage shall be attached to the name of the expected signature.
+
