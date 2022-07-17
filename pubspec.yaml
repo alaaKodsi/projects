@@ -1,0 +1,40 @@
+name: signature_senior_project
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  image_picker: ^0.8.4+4
+  dio: ^4.0.4
+  bot_toast: ^4.0.1
+#  splashscreen: ^1.3.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/traffic-lights.jpg
+    - assets/images/splashscreen.jpg
+    - assets/images/Traffic logo.png
+
+  fonts:
+     - family: Splash
+       fonts:
+        - asset: assets/font/Splash-Regular.ttf
+
+     - family: Buttonidemo
+       fonts:
+         - asset: assets/font/Buttonidemo-2OG8e.otf
+
